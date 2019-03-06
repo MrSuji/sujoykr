@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(224, 235, 232, 0.459);
+    color: #66BFBF;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #E0EBE8;
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.imsujoy {
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.webdev {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-pic {
+    width: 20rem;
+    padding-top: 50px;
+}
+
+.coding {
+    height: 10rem;
+}
+
+.drawing {
+    height: 10rem;
+}
+
+span {
+    text-decoration: underline;
+}
+
+a {
+    color: #66BFBF;
+}
