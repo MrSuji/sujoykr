@@ -33,13 +33,25 @@ body {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px
+    top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 300px;
+}
+
+.bio {
+    width: 50%;
+    margin: auto;
+}
+
+hr {
+    border: dotted rgb(120, 230, 230) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .profile-pic {
@@ -48,7 +60,7 @@ body {
 }
 
 .coding {
-    height: 10rem;
+    width: 35%;
 }
 
 .drawing {
@@ -61,4 +73,51 @@ span {
 
 a {
     color: #66BFBF;
+}
+
+.mountain {
+    margin: auto 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 1.5;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.butn {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    background: #66BFBF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #7ecccc;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #E0EBE8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.endtext {
+    color: rgb(255, 255, 255);
 }
