@@ -31,14 +31,17 @@ body {
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+    /* position: absolute; */
+    float: right;
+    /* right: 300px;
+    top: 50px; */
+    margin-right: 200px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 200px;
+    /* position: absolute; */
+    display: block;
+    padding-left: 200px;
     bottom: 300px;
 }
 
@@ -77,6 +80,7 @@ a {
 
 .mountain {
     margin: auto 0;
+    width: 50%;
 }
 
 .skill-row {
@@ -115,9 +119,9 @@ a:hover {
 .bottom-container {
     background-color: #E0EBE8;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .endtext {
-    color: rgb(255, 255, 255);
+    color: rgb(231, 252, 252);
 }
