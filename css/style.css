@@ -22,6 +22,8 @@ body {
     font-family: 'Sacramento', cursive;
     font-size: 6rem;
     margin-bottom: 0;
+    padding: 0 30px;
+    line-height: 1;
 }
 
 .webdev {
@@ -58,7 +60,7 @@ hr {
 }
 
 .profile-pic {
-    width: 20rem;
+    width: 30%;
     padding-top: 50px;
 }
 
@@ -124,4 +126,9 @@ a:hover {
 
 .endtext {
     color: rgb(231, 252, 252);
+}
+
+h2, h3, p {
+    padding: 5px 5px;
+    word-wrap: break-word;
 }
